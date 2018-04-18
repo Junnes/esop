@@ -1,0 +1,109 @@
+.tooltip-con {
+    font-size: 10px;
+    color: #fff;
+    text-align: left;
+}
+
+.tooltip-txt {
+    height: 27px;
+    padding-right: 6px;
+    padding-left: 6px;
+    border-radius: 4px;
+    line-height: 27px;
+}
+
+.tooltip-counts {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.item-color {
+    display: inline-block;
+    width: 8px;
+    height:8px;
+}
+
+.rankbtn {
+  position: absolute;
+  top: 3px;
+  right: 35px;
+  width: 221px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.rankbtn > div {
+  border: #e2e2e2 1px solid;
+}
+
+.legendBtn {
+    background: #fff;
+    width: 30px;
+    height: 100%;
+}
+
+.legendBtnR {
+    border-radius: 3px 0 0 3px;
+}
+
+.legendBtnL {
+    border-radius: 0 3px 3px 0;
+}
+
+.legendBtnOth {
+    margin-left: 1px;
+    width: 60px;
+    border-radius: 3px;
+    height: 100%;
+    background: #2196F3;
+    color: #fff;
+    font-size: 12px;
+}
+
+.rankbtn img {
+    width: 15px;
+    margin-top: -3px;
+   display: inline-block;
+    vertical-align: middle;
+}
+
+.rankbtn > div.btnColor {
+    background-color: #2196F3;
+    border: #2196F3 1px solid !important;
+}
+
+.btnColor .no-active {
+    display: none;
+}
+
+.active-img {
+    display: none;
+}
+
+.rankbtn-first {
+    width: 50px;
+}
+
+.rankbtn-first .btn1 {
+    width: 100%;
+    font-size: 12px;
+    color: #404B5C;
+    letter-spacing: -0.5px;
+}
+
+.rankbtn .calendar img {
+    margin-top: 2px;
+}
+
+.rankbtn .calendar {
+    float: right;
+}
+
+.legendBtn:not(.btnColor) {
+  
+}

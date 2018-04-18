@@ -1,0 +1,361 @@
+/*--css 鍒濆鍖�- */
+
+@charset "utf-8";
+a,
+address,
+b,
+big,
+blockquote,
+body,
+center,
+cite,
+code,
+dd,
+del,
+div,
+dl,
+dt,
+em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+label,
+legend,
+li,
+ol,
+p,
+pre,
+small,
+span,
+strong,
+u,
+ul,
+var,
+button,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+}
+
+fieldset,
+img,
+input,
+button {
+    border: none;
+    outline-style: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    font-family: "Helvetica", " Microsoft YaHei";
+    font-size: 14px;
+}
+
+select,
+input {
+    vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+    font-size: 14px;
+    outline: none;
+}
+
+
+
+/*--闃叉鎷栧姩--*/
+
+textarea {
+    resize: none;
+}
+
+
+
+/*--鍘绘帀鍥剧墖浣庢祴榛樿鐨�鍍忕礌绌虹櫧缂濋殭--*/
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/*--瑙ｅ喅button鍦╢irefox涓嬫枃瀛椾笉鑳戒笂涓嬪眳涓殑闂--*/
+
+button::-moz-focus-inner {
+    margin: 0;
+    padding: 0px 0 2px;
+    border: none;
+}
+
+body {
+    font-family: "Helvetica", " Microsoft YaHei";
+    font-size: 14px;
+    color: #666;
+    background-color: #f3f3f4;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+/*--娓呴櫎娴姩--*/
+
+.clearfix {
+    *+height: 1%;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+/*--鎸夐挳--*/
+
+.btn {
+    display: inline-block;
+    min-width: 60px;
+    padding: 6px 10px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-image: none;
+    background-color: transparent;
+    cursor: pointer;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+/*--鏂规灏氶叿绠�綋--*/
+
+@font-face {
+    font-family: 'fzshangkus-r-gbregular';
+    src: url('myfonts/fzshangkjw/fzshangkjw-webfont.woff2') format('woff2'), url('myfonts/fzshangkjw/fzshangkjw-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*--鏂规姝ｄ腑榛戠畝浣�-*/
+
+@font-face {
+    font-family: 'fzzhengheis-db-gbregular';
+    src: url('myfonts/fzzhengheis/webfont.woff2') format('woff2'), url('myfonts/fzzhengheis/webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*--鐢靛瓙鏁板瓧--*/
+
+@font-face {
+    font-family: 'LetsgoDigital-Regular';
+    src: url('myfonts/l/lets_go_digital_regular-webfont.woff2') format('woff2'), url('myfonts/l/lets_go_digital_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MFLangQian_Noncommercial-Regular';
+    src: url('myfonts/m/mflangqian_noncommercial-regular-webfont.woff2') format('woff2'), url('../myfont/m/mflangqian_noncommercial-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------------------------------------------- */
+.demo-comp-box {
+    background: #f3f3f7;
+    /*background: rgba(15, 16, 70, 0.99);*/
+}
+.demo-comp-box, .demo-comp-echarts {
+    width: 100%;
+    height: auto;
+}
+.echarts-title {
+    line-height: 40px;
+    padding: 20px 0 10px 20px;
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+}
+
+.comp-echarts-box {
+    background: rgba(15, 16, 70, 0.99);
+}
+.line-box, .bar-box, .pie-box, .radar-box {
+    height: 400px;
+}
+.line-box, .bar-box, .pie-box, .radar-box {
+    float: left;
+    width: calc(50% - 40px);
+    padding: 10px;
+    margin: 20px;
+    /*background: rgba(5, 12, 37, .45);*/
+    border-radius: 4px;
+    border: 1px solid #468ae0;
+    box-shadow: 0 0 32px #407bd2
+}
+.input-box {
+    height: 120px;
+    float: left;
+    width: calc(50% - 40px);
+    padding: 10px;
+    margin: 20px;
+    /*background: rgba(5, 12, 37, .45);*/
+    border-radius: 4px;
+    border: 1px solid #468ae0;
+    box-shadow: 0 0 10px #9eb7dc;
+}
+}
+.input-box label, .form-box label {
+    color: #fff;
+}
+.input-box input, .input-box textarea {
+    /*background: #e5ebf3;*/
+    color: #170b58;
+}
+.input-box .es-form-item {
+    margin-bottom: 20px;
+}
+.input-box .es-input-icon {
+    color: #170b58;
+}
+.form-box, .table-box {
+    float: left;
+    width: calc(100% - 40px);
+    height: 450px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 4px;
+    border: 1px solid #468ae0;
+    /*box-shadow: 0 0 32px #407bd2;*/
+    box-shadow: 0 0 10px #9eb7dc;
+}
+
+.button-box {
+    width: 33.333333%;
+    height: 50%;
+    float: left;
+}
+
+.table-box {
+    height: 450px;
+    padding: 24px;
+    position: relative;
+    /*background: #fff;*/
+}
+
+.date-range-box {
+    float: left;
+    width: calc(100% - 40px);
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 4px;
+    border: 1px solid #468ae0;
+    /*box-shadow: 0 0 32px #407bd2;*/
+    box-shadow: 0 0 10px #9eb7dc;
+}
+
+/* ---------pageSearch-------------- */
+.page-search-box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.page-search-top {
+    /*height: 168px;*/
+    width: 100%;
+    padding: 15px 20px 0 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 16px 2px #e2e8ec;
+}
+
+.page-search-bottom {
+    width: 100%;
+    /*height: 390px;*/
+    padding: 15px 20px 0 20px;
+    margin-top: 35px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 3px 16px 2px #e2e8ec;
+}

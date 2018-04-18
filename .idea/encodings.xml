@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esop-api-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esop-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esop-demo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esop-other-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esop-registry-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esop-service-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/esop-web" charset="UTF-8" />
+  </component>
+</project>

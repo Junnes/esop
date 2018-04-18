@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: esop-web
+    cloud:
+        config:
+            uri: http://localhost:1001

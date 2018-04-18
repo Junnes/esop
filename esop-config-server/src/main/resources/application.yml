@@ -1,0 +1,18 @@
+server:
+    port: 1001
+
+spring:
+    application:
+        name: esop-config-server
+    profiles:
+        active: native
+
+eureka:
+    client:
+        eureka-server-port: 2001
+        serviceUrl:
+            defaultZone: http://${eureka.instance.hostname}:${eureka.client.eureka-server-port}/eureka/
+    instance:
+        hostname: localhost
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="esop-api-service" />
+        <module name="esop-config-server" />
+        <module name="esop-demo-service" />
+        <module name="esop-other-server" />
+        <module name="esop-registry-server" />
+        <module name="esop-service-common" />
+        <module name="esop-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="esop" target="1.8" />
+      <module name="esop-api-service" target="1.8" />
+      <module name="esop-config-server" target="1.8" />
+      <module name="esop-demo-service" target="1.8" />
+      <module name="esop-other-server" target="1.8" />
+      <module name="esop-registry-server" target="1.8" />
+      <module name="esop-service-common" target="1.8" />
+      <module name="esop-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

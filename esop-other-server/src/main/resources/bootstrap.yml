@@ -1,0 +1,18 @@
+spring:
+    application:
+        name: esop-other-service
+    cloud:
+        config:
+            uri: http://localhost:1001
+    datasource:
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+        url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+        password: asiainfo
+        username: asiainfo
+    jackson:
+        serialization:
+            indent-output: true
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true

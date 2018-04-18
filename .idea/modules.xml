@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/esop.iml" filepath="$PROJECT_DIR$/esop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esop-api-service/esop-api-service.iml" filepath="$PROJECT_DIR$/esop-api-service/esop-api-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esop-config-server/esop-config-server.iml" filepath="$PROJECT_DIR$/esop-config-server/esop-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esop-demo-service/esop-demo-service.iml" filepath="$PROJECT_DIR$/esop-demo-service/esop-demo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esop-other-server/esop-other-server.iml" filepath="$PROJECT_DIR$/esop-other-server/esop-other-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esop-registry-server/esop-registry-server.iml" filepath="$PROJECT_DIR$/esop-registry-server/esop-registry-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esop-service-common/esop-service-common.iml" filepath="$PROJECT_DIR$/esop-service-common/esop-service-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esop-web/esop-web.iml" filepath="$PROJECT_DIR$/esop-web/esop-web.iml" />
+    </modules>
+  </component>
+</project>
